@@ -13,7 +13,7 @@ public class Baseclass {
 	@BeforeMethod
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver", "/home/nikunjshah204gm/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/charmynetlangca/Downloads/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://www.redbus.in");
 		driver.manage().window().maximize();
